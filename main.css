@@ -50,7 +50,7 @@ div{
   top: 100px;
 }
 #stomach:hover{
-  content: url("images/stomach2.PNG");
+  content: url("images/stomach2.png");
 }
 
 #small{
