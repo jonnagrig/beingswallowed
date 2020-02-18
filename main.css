@@ -1,0 +1,88 @@
+div{
+  position: relative;
+  text-align: center;
+  top: 20vh;
+  font-family: 'VT323', monospace;
+  font-size: 3vw;
+  color: #00ded6;
+}
+
+#mouth{
+  position: relative;
+  display: block;
+  margin: auto;
+  width: 40%;
+  top: 100px;
+}
+#mouth:hover{
+  content: url("images/mouth2.png");
+}
+
+
+#uvula{
+  position: relative;
+  display: block;
+  margin: auto;
+  width: 40%;
+  top: 100px;
+}
+#uvula:hover{
+  content: url("images/uvula2.png");
+}
+
+
+#throat{
+  position: relative;
+  display: block;
+  margin: auto;
+  width: 40%;
+  top: 100px;
+}
+#throat:hover{
+  content: url("images/throat2.png");
+}
+
+#stomach{
+  position: relative;
+  display: block;
+  margin: auto;
+  width: 40%;
+  top: 100px;
+}
+#stomach:hover{
+  content: url("images/stomach2.png");
+}
+
+#small{
+  position: relative;
+  display: block;
+  margin: auto;
+  width: 40%;
+  top: 100px;
+}
+#small:hover{
+  content: url("images/small2.png");
+}
+
+#large{
+  position: relative;
+  display: block;
+  margin: auto;
+  width: 40%;
+  top: 100px;
+}
+#large:hover{
+  content: url("images/large2.png");
+}
+
+#toilet{
+  position: relative;
+  display: block;
+  margin: auto;
+  width: 40%;
+  top: 100px;
+}
+#toilet:hover{
+  content: url("images/toilet2.png");
+}
+
