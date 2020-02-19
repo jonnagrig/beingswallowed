@@ -1,4 +1,5 @@
-div{
+/*AQUA PIXEL TEXT*/
+.text{
   position: relative;
   text-align: center;
   top: 20vh;
@@ -6,7 +7,7 @@ div{
   font-size: 3vw;
   color: #00ded6;
 }
-
+/*MOUTH*/
 #mouth{
   position: relative;
   display: block;
@@ -14,11 +15,22 @@ div{
   width: 40%;
   top: 100px;
 }
-#mouth:hover{
+
+#mouthclick{
+  display: block;
+  height: 10vh;
+  width: 10vw;
+  z-index: 2;
+  position: absolute;
+  top: 40vh;
+  left: 45vw;
+}
+
+#mouthclick:hover + #mouth{
   content: url("images/mouth2.png");
 }
 
-
+/*UVULA*/
 #uvula{
   position: relative;
   display: block;
@@ -26,11 +38,22 @@ div{
   width: 40%;
   top: 100px;
 }
-#uvula:hover{
+
+#uvulaclick{
+  display: block;
+  height: 9vh;
+  width: 9vw;
+  z-index: 2;
+  position: absolute;
+  top: 30vh;
+  left: 45vw;
+}
+
+#uvulaclick:hover + #uvula{
   content: url("images/uvula2.png");
 }
 
-
+/*THROAT/ESOPHAGUS*/
 #throat{
   position: relative;
   display: block;
@@ -38,10 +61,22 @@ div{
   width: 40%;
   top: 100px;
 }
-#throat:hover{
+
+#throatclick{
+  display: block;
+  height: 10vh;
+  width: 10vw;
+  z-index: 2;
+  position: absolute;
+  top: 48vh;
+  left: 45vw;
+}
+
+#throatclick:hover + #throat{
   content: url("images/throat2.png");
 }
 
+/*STOMACH*/
 #stomach{
   position: relative;
   display: block;
@@ -49,10 +84,22 @@ div{
   width: 40%;
   top: 100px;
 }
-#stomach:hover{
+
+#stomachclick{
+  display: block;
+  height: 10vh;
+  width: 10vw;
+  z-index: 2;
+  position: absolute;
+  top: 32vh;
+  left: 35vw;
+}
+
+#stomachclick:hover + #stomach{
   content: url("images/stomach2.png");
 }
 
+/*SMALL INTESTINE*/
 #small{
   position: relative;
   display: block;
@@ -60,10 +107,22 @@ div{
   width: 40%;
   top: 100px;
 }
-#small:hover{
+
+#smallclick{
+  display: block;
+  height: 10vh;
+  width: 10vw;
+  z-index: 2;
+  position: absolute;
+  top: 32vh;
+  left: 55vw;
+}
+
+#smallclick:hover + #small{
   content: url("images/small2.png");
 }
 
+/*LARGE INTESTINE*/
 #large{
   position: relative;
   display: block;
@@ -71,10 +130,22 @@ div{
   width: 40%;
   top: 100px;
 }
-#large:hover{
+
+#largeclick{
+  display: block;
+  height: 10vh;
+  width: 10vw;
+  z-index: 2;
+  position: absolute;
+  top: 60vh;
+  left: 45vw;
+}
+
+#largeclick:hover + #large{
   content: url("images/large2.png");
 }
 
+/*TOILET/ENDING*/
 #toilet{
   position: relative;
   display: block;
@@ -82,7 +153,30 @@ div{
   width: 40%;
   top: 100px;
 }
-#toilet:hover{
+
+#toiletclick{
+  display: block;
+  height: 10vh;
+  width: 10vw;
+  z-index: 2;
+  position: absolute;
+  top: 35vh;
+  left: 46vw;
+}
+
+#toiletclick:hover + #toilet{
   content: url("images/toilet2.png");
 }
 
+#homelink{
+font-size: 2.25vw;
+color: #00ded6;
+}
+
+#homelink:visited{
+  font-size: 2.25vw;
+  color: #00ded6;}
+
+#homelink:hover{
+  color: #14a69a;
+}
