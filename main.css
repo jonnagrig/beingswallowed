@@ -2,7 +2,7 @@
 .text{
   position: relative;
   text-align: center;
-  top: 15vh;
+  top: 100px;
   font-family: 'VT323', monospace;
   font-size: 3vw;
   color: #00ded6;
