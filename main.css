@@ -2,7 +2,7 @@
 .text{
   position: relative;
   text-align: center;
-  top: 20vh;
+  top: 10vh;
   font-family: 'VT323', monospace;
   font-size: 3vw;
   color: #00ded6;
@@ -13,7 +13,7 @@
   display: block;
   margin: auto;
   width: 40%;
-  top: 100px;
+  top: 80px;
 }
 
 #mouthclick{
@@ -36,7 +36,7 @@
   display: block;
   margin: auto;
   width: 40%;
-  top: 100px;
+  top: 80px;
 }
 
 #uvulaclick{
@@ -59,7 +59,7 @@
   display: block;
   margin: auto;
   width: 40%;
-  top: 100px;
+  top: 80px;
 }
 
 #throatclick{
@@ -82,7 +82,7 @@
   display: block;
   margin: auto;
   width: 40%;
-  top: 100px;
+  top: 80px;
 }
 
 #stomachclick{
@@ -105,7 +105,7 @@
   display: block;
   margin: auto;
   width: 40%;
-  top: 100px;
+  top: 80px;
 }
 
 #smallclick{
@@ -128,7 +128,7 @@
   display: block;
   margin: auto;
   width: 40%;
-  top: 100px;
+  top: 80px;
 }
 
 #largeclick{
@@ -151,7 +151,7 @@
   display: block;
   margin: auto;
   width: 40%;
-  top: 100px;
+  top: 80px;
 }
 
 #toiletclick{
